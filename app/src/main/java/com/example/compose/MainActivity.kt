@@ -117,7 +117,7 @@ fun State() {
         Button(onClick = {
             count += 2
         }) {
-            Text(text = "Increase counter: $count")
+            Text(text = "Increment: $count")
         }
 
         Button(
